@@ -1,0 +1,52 @@
+.triangle button {
+  border-radius: 50%;
+  padding: 20px;
+  font-size: 15px;
+  background-color: #000000c3;
+  border: 1px solid #000000c3;
+}
+
+.triangle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 30px;
+}
+
+.ingredient-table {
+  /*  margin-left: 300px; */
+  border-style: double;
+  width: 40%;
+  border-collapse: collapse;
+  font-size: 1em;
+}
+
+th {
+  background-color: #e3ebec;
+  border-bottom: 1px solid black;
+  border: 2px solid black;
+  padding: 12px 15px;
+}
+
+tr {
+  background-color: #7995ba;
+}
+
+td {
+  text-align: center;
+  color: white;
+  padding: 10px;
+  font-size: 20px;
+}
+
+table {
+  border: 1px solid black;
+}
